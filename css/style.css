@@ -34,10 +34,42 @@
     padding: 20px;
 }
 
-.name_text_field input{
-    width: auto;
-    height: 25px;
+.field { 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.field input {
+    width: 100%;
+    height: 30px;
     border: 1px;
     border-radius: 15px;
     padding: 10px;
+    box-sizing: border-box;
 }
+
+.field input:hover {
+    border: 1px solid rgb(255, 187, 0);
+}
+
+.field input:focus {
+    border: 1px solid rgb(255, 187, 0);
+    outline: none;
+}
+
+.submit_button {
+    grid-column: span 2;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 187, 0);
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(221, 167, 18);
+}
+
