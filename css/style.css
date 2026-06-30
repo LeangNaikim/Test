@@ -25,3 +25,19 @@
     width: 50px;
     height: 50px;
 }
+
+.main_background {
+    background-color: rgba(128, 128, 128, 0.298);
+    height: 200px;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.name_text_field input{
+    width: auto;
+    height: 25px;
+    border: 1px;
+    border-radius: 15px;
+    padding: 10px;
+}
